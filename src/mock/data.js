@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Jordan Coakley Portfolio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,48 +10,46 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Jordan Coakley',
+  subtitle: `and I'm a Front End Developer`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'Selfie-cropped.jpg',
+  paragraphOne: `I am a Front End Developer, skilled in HTML, CSS, SASS, Javascript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
+  resume: 'https://resume.io/r/zHzr0wDM1', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'apple-clone-screenshot.PNG',
+    title: 'Apple Landing Page Clone',
+    info: `Clone of Apple.com landing page built with HTML,CSS and SASS`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jordancoakley1232.github.io/apple-landing-page.github.io/',
+    repo: 'https://github.com/jordancoakley1232/apple-landing-page.github.io', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'uptodate-screenshot.PNG',
+    title: 'UpToDate App',
+    info: 'A fullstack Home Dashboard built with HTML, SASS, Javascript and Nodejs with Express',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://uptodate-app.herokuapp.com/',
+    repo: 'https://github.com/jordancoakley1232/Up-To-Date', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'VendingMachine-screenshot.PNG',
+    title: 'React Vending Machine',
+    info: 'A virtual vending machine built with React, SASS and Material Ui. ',
+    info2: 'Incorporated React Hooks, React-Router and useContext.',
+    url: 'https://jordancoakley1232.github.io/react-vending-machine/#/',
+    repo: 'https://github.com/jordancoakley1232/react-vending-machine', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +57,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jordan_c1232@outlook.com',
 };
 
 // FOOTER DATA
@@ -67,28 +65,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jordan-coakley-703574145/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jordancoakley1232',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
