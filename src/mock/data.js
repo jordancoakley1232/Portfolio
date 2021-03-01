@@ -19,6 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'Selfie-cropped.jpg',
   paragraphOne: `I am a Front End Developer, skilled in HTML, CSS, SASS, Javascript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
+  paragraphTwo: `With 1.5 years of experience with Javascript and React, I'm looking to join a team where I can continue to grow and add value.`,
   resume: 'https://resume.io/r/zHzr0wDM1', // if no resume, the button will not show up
 };
 
