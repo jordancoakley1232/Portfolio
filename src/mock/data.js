@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Selfie-cropped.jpg',
-  paragraphOne: `I am a Front End Developer, skilled in HTML, CSS, SASS, Javascript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
-  paragraphTwo: `With 1.5 years of experience with Javascript and React, I'm looking to join a team where I can continue to grow and add value.`,
+  paragraphOne: `I am a Front End Developer, based in Bucharest, Romania. Skilled in HTML, CSS, SASS, Javascript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
+  paragraphTwo: `With almost 2 years of experience with Javascript and React, I'm looking to join a team where I can continue to grow and add value.`,
   resume: 'https://resume.io/r/zHzr0wDM1', // if no resume, the button will not show up
 };
 
@@ -27,12 +27,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'apple-clone-screenshot.PNG',
-    title: 'Apple Landing Page Clone',
-    info: `Clone of Apple.com landing page built with HTML,CSS and SASS`,
-    info2: '',
-    url: 'https://jordancoakley1232.github.io/apple-landing-page.github.io/',
-    repo: 'https://github.com/jordancoakley1232/apple-landing-page.github.io', // if no repo, the button will not show up
+    img: 'VendingMachine-screenshot.PNG',
+    title: 'React Vending Machine',
+    info: 'A virtual vending machine built with React, SASS and Material Ui. ',
+    info2: 'Incorporated React Hooks, React-Router and useContext.',
+    url: 'https://jordancoakley1232.github.io/react-vending-machine/#/',
+    repo: 'https://github.com/jordancoakley1232/react-vending-machine', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Coinhub-image.PNG',
+    title: 'Coinhub',
+    info: `React Cryptocurrency site, built with React Hooks, based on the design from coinbase.com`,
+    info2: 'Built with React, using Sass, React-router, react-pagination, react-modal etc..',
+    url: 'https://jordancoakley1232.github.io/coinhub/#/',
+    repo: 'https://github.com/jordancoakley1232/coinhub/tree/master', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -45,13 +54,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'VendingMachine-screenshot.PNG',
-    title: 'React Vending Machine',
-    info: 'A virtual vending machine built with React, SASS and Material Ui. ',
-    info2: 'Incorporated React Hooks, React-Router and useContext.',
-    url: 'https://jordancoakley1232.github.io/react-vending-machine/#/',
-    repo: 'https://github.com/jordancoakley1232/react-vending-machine', // if no repo, the button will not show up
-  },
+    img: 'apple-clone-screenshot.PNG',
+    title: 'Apple Landing Page Clone',
+    info: `Clone of Apple.com landing page built with HTML,CSS and SASS`,
+    info2: '',
+    url: 'https://jordancoakley1232.github.io/apple-landing-page.github.io/',
+    repo: 'https://github.com/jordancoakley1232/apple-landing-page.github.io', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
