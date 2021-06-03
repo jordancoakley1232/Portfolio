@@ -27,6 +27,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'Listify.PNG',
+    title: 'Listify',
+    info: 'A React-Redux App that allows you to keep track of your shopping list. ',
+    info2: 'Built with React, React-Redux and React-Router.',
+    url: 'https://jordancoakley1232.github.io/Listify/#/',
+    repo: 'https://github.com/jordancoakley1232/Listify/tree/master', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'VendingMachine-screenshot.PNG',
     title: 'React Vending Machine',
     info: 'A virtual vending machine built with React, SASS and Material Ui. ',
