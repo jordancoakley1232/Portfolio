@@ -18,8 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Selfie-cropped.jpg',
-  paragraphOne: `I am a Front End Developer, based in Bucharest, Romania. Skilled in HTML, CSS, SASS, Javascript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
-  paragraphTwo: `With almost 2 years of experience with Javascript and React, I'm looking to join a team where I can continue to grow and add value.`,
+  paragraphOne: `I am a Frontend React Developer based in Europe. I have skills developing web apps using HTML, CSS, SASS, Javascript/Typescript and React. I'm always learning and looking to not only sharpen my current skills, but to also develop new ones along the way`,
   resume: 'https://resume.io/r/zHzr0wDM1', // if no resume, the button will not show up
 };
 
